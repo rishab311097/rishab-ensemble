@@ -121,7 +121,9 @@ When invoked, the pipeline handles feature transformation and inference sequenti
 
 The operational execution yields a final structured output file saved directly into your workspace as **`prediction.csv`**. This prediction artifact matches the row length and initial identification order of the incoming `test.csv` file. It appends the newly computed predictions into a single, comprehensive string array column named **`listed_in`**, where predicted multi-label target boundaries are cleanly rejoined back into standard comma-separated format (e.g., `Dramas, International Movies, Thrillers`).
 
-#### CLI Output
+#### Run using CLI
+> run python model_pipeline.py
+
 ```text
 | Starting execution of the pipeline...
 | Starting data pre-processing...

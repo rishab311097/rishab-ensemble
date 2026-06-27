@@ -1,2 +1,4 @@
 # Environment variables
 /ensemble_venv
+*.pdf
+*.docx
